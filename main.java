@@ -11,7 +11,11 @@ public class Main
 
   public static void main(String[]args)
   {
+    
+    int hp = 100
+    int mp = 250
     new Game ()
+      
   }
       
   void Game(){
