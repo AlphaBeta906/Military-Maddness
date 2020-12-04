@@ -9,7 +9,7 @@ public class Main
   public static void main (String[]args)
   {
     new Game (
-barney
+  }
   void Game (){
     window = new JFrame ();
     widnow.setSize (800, 600);
