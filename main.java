@@ -8,12 +8,13 @@ public class Main
   
   Container con;
   JFrame window;
+  
+  int playerHP, playerMax, opponentHP;
+  String weapon;
 
   public static void main(String[]args)
   {
     
-    int hp = 100
-    int mp = 250
     new Game ()
       
   }
@@ -27,6 +28,15 @@ public class Main
     window.setVisible(true);
     con = getContentPane();
 
+  }
+  
+  void Setup(){
+    
+    playerHP = 15;
+    playerMax = 20;
+    opponentHP = 0
+    weapon = "Stone"
+      
   }
 
 }
