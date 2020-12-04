@@ -5,7 +5,8 @@ import javax.swing.JFrame;
 
 public class Main
 {
-
+  
+  Container con;
   JFrame window;
 
   public static void main(String[]args)
